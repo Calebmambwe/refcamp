@@ -3,7 +3,9 @@ import 'package:refcamp/Homepage.dart';
 import 'package:flutter_grid_button/flutter_grid_button.dart';
 import 'db.dart';
 /// This is my test
-
+/// Another change
+/// Hi, my name is Prachi
+///
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   // await initializeDatabase();
@@ -124,7 +126,4 @@ class _MyHomePageState extends State<MyHomePage> {
         ],
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,mainAxisSpacing: 10,crossAxisSpacing: 10),
         ),
-      ),),
-    );
-  }
-}
+      ),)
